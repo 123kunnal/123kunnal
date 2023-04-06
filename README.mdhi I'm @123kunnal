@@ -1,10 +1,12 @@
-- 👋 Hi, I’m @123kunnal
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-123kunnal/123kunnal is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+#include<studio.h>
+int main(){        //program to find greatest of
+int n1,n2,n3;            3 number
+printf("enter numbers");
+scanf("%d%d%d",&n1,&n2,&n3);
+if(n1>n2&&n1>n3){
+printf("%d is greatest",n1);}
+else if(n2>n1&&n2>n3){
+printf("%d is greatest",n2);}
+else{
+printf("%d is greatest ",n3);}
+return 0;}
